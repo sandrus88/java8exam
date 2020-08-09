@@ -1,5 +1,8 @@
 package exam.exceptions;
 
+/**
+ * Used in all excercises
+ */
 public class MyException extends Exception {
 
 	private static final long serialVersionUID = 1L;
