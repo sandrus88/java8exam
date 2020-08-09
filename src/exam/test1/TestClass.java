@@ -1,4 +1,4 @@
-package exam;
+package exam.test1;
 
 import exam.exceptions.MyException;
 
