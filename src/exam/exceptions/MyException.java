@@ -1,8 +1,8 @@
 package exam.exceptions;
+
 /**
- * application exception
- * @author armela
- *
+ * application exception 
+ * Used in all excercises
  */
 public class MyException extends Exception {
 
