@@ -17,7 +17,10 @@ public class TestClass{
         dear[0] = 747;
         foo();
     }
-    
+
+    /**
+     * This method throws an Exception
+     */
     static void foo() throws MyException{
         throw new MyException("Exception from foo");
     }
