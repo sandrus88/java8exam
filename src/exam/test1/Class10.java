@@ -11,7 +11,7 @@ package exam.test1;
  
  */
 
-public class ClassX {
+public class Class10 {
 	public static void main(String args[]) {
 		//line 1: insert code here.
 		}
