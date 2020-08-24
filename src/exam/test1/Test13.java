@@ -9,6 +9,14 @@ package exam.test1;
  None of the above;
  */
 
+/**
+ * Ermal's feedback: The file is not compiling. To make a compilable version do the following steps:
+ * 1) create package 'ex13' (inside package test1)
+ * 2) create package 'other', exactly in the path test1/ex13
+ * 3) Move class Other inside the package other
+ * 4) Create package 'testPage' inside test1/ex13/
+ * 5) Move class Test13 inside package testPackage.
+ */
 //In File Other.java
 package other;
 public class Other { public static String hello = "Hello"; }

@@ -6,7 +6,7 @@ package exam.test1;
     null 1;
  2) 0 
     1;
- 3)    0    
+ 3) (strange characters present here. encoding issue)
        1 (There is a space before 0 and 1);
  4) null 
     null;
