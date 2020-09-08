@@ -38,5 +38,10 @@ public class Ex17 {
 	public static void main(String[] args) {
 		Ex17 ex = new Ex17();
 		System.out.println(ex.setVar(1, 2, (float)2.5));
+		System.out.println(ex.setVar(1, (float)4.5, 5));
+		System.out.println(ex.setVar(1, (float)3.5, 2));
+		System.out.println(ex.setVar(1, 7, (float)1.5));
+		System.out.println(ex.setVar(1, 3, (float)5.5));
+		System.out.println(ex.setVar(1));
 	}
 }
