@@ -29,19 +29,45 @@ package exam.test1;
  * 5) public float setVar(int a){ ï¿½ï¿½
  * return a;
  * };
+<<<<<<< HEAD
 >>>>>>> refs/remotes/origin/master
+=======
+>>>>>>> branch 'master' of https://github.com/sandrus88/java8exam.git
  */
 public class Ex17 {
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 	public int setVar(int a, float b, int c) {
 		return (int) (a + b + c);
 	}
+=======
+>>>>>>> branch 'master' of https://github.com/sandrus88/java8exam.git
 
+<<<<<<< HEAD
 	public int setVar(int a, float b, int c) {    
 		return this(a, c, b); 
+=======
+    //who from the followings overloads the original methods?
+    // https://www.programiz.com/java-programming/method-overloading
+    public int setVar(int a, float b, int c) { //different argument sequence, same return type
+        return (int) (a + b + c);
+    }
+    public int setVar(int a, float b, int c) {  //different argument sequence, same return type
+        return this(a, c, b); //when this is used?  is this correct?
+    }
+    public int setVar(int x, int y, float z) { //this has the same argument sequence, same return type. can we say is an overloading case?
+        return x + y;
+    }
+    public float setVar(int a, int b, float c) { //this has same argument sequence, but different return type. is the case of overloading?
+        return c * a;
+    }
+    public float setVar(int a) { //different argument, but different return type too. is teh case of overloading?
+        return a;
+>>>>>>> branch 'master' of https://github.com/sandrus88/java8exam.git
     }
 
+<<<<<<< HEAD
 	public int setVar(int x, int y, float z) {    
 		return x+y; 
 	}
@@ -94,4 +120,15 @@ public class Ex17 {
         System.out.println(ex.setVar());
     }
 >>>>>>> refs/remotes/origin/master
+=======
+    //original methods
+    public int setVar(int a, int b, float c) {
+        return a;
+    }
+
+    public static void main(String[] args) {
+        Ex17 ex = new Ex17();
+        System.out.println(ex.setVar());
+    }
+>>>>>>> branch 'master' of https://github.com/sandrus88/java8exam.git
 }
