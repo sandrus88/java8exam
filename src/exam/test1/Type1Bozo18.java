@@ -8,7 +8,8 @@ package exam.test1;
 
 public class Type1Bozo18 implements Bozo {
 	public Type1Bozo18() {
-		//type = 1; //non compila perchè variabili dichiarate in interfaccia sono implicitamente final
+		// type = 1; //non compila perchè variabili dichiarate in interfaccia sono
+		// implicitamente final
 	}
 
 	public void jump() {

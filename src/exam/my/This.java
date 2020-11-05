@@ -1,7 +1,6 @@
 package exam.my;
 
 public class This {
-    
     private int a;
     private int b;
     

@@ -12,8 +12,8 @@ package exam.test1;
 public class MyClass5 {
 
 	public static void main(String args[]) {
-	String mStr = "123";
-	long m = new Long(mStr);
+		String mStr = "123";
+		long m = new Long(mStr);
 
-}
+	}
 }
