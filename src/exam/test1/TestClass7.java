@@ -28,7 +28,7 @@ public class TestClass7 {
 	}
 
 	public static void main(String[] args) throws Exception {
-		TestClass tc = new TestClass();
+		TestClass7 tc = new TestClass7();
 		tc.switchString("B");
 	}
 }

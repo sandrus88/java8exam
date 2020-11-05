@@ -26,6 +26,7 @@ public class TestClass14 {
 
 	public int compute(int x, int y) {
 		// 1 : Insert Line of Code here
+		return 0; // fake return for compilation
 	}
 
 	public void loadMatrix() {
