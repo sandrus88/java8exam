@@ -1,6 +1,7 @@
 package exam.test1.ex13.testPackage;
 
-import other.*;
+//import exam.test1.ex13.other.Other;
+
 class Test{
    public static void main(String[] args){
       String hello = "Hello", lo = "lo";
@@ -11,4 +12,5 @@ class Test{
       System.out.println(hello == ("Hel"+lo).intern());          //line 5
    }
 }
+
 class Other { static String hello = "Hello"; }

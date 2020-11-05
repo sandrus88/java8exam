@@ -11,7 +11,7 @@ public class MyClass2 {
 		c = 'a';// 1
 		i = c; // 2
 		i++; // 3
-		c = i; // 4
+		//c = i; // 4 compilation error
 		c++; // 5
 	}
 }
