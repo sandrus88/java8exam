@@ -1,5 +1,14 @@
 package exam.test1;
 
+/**
+ What will be the result of compiling and running the following code?
+ 1) It will print the hash code of the object.
+ 2) It will print hello.
+ 3) Compile time error at //1.
+ 4) Compile time error at //2.
+ 5) Compile time error at //3.
+ */
+
 class Base {
 	public Object getValue() {
 		return new Object();
