@@ -10,15 +10,15 @@ What will the following code print when run?
    aa = class AA;  
  */
 
-class A {
+class A1 {
 }
 
-class AA extends A {
+class AA extends A1 {
 }
 
 public class TestClass40 {
 	public static void main(String[] args) throws Exception {
-		A a = new A();
+		A1 a = new A1();
 		AA aa = new AA();
 		a = aa;
 		System.out.println("a = " + a.getClass());

@@ -1,5 +1,9 @@
 package exam.test1;
 
+import java.util.ArrayList;
+import java.util.function.Predicate;
+import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
+
 /**
  What can be inserted in the code below so that it will print true when run?
  1) checkList(new ArrayList(), al -> al.isEmpty());
@@ -15,8 +19,8 @@ public class TestClass43 {
 	}
 
 	public static void main(String[] args) {
-		boolean b = //WRITE CODE HERE
-				System.out.println(b);
+//		boolean b = //insert code here
+//				System.out.println(b);
 	}
 }
 

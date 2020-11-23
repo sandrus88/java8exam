@@ -15,16 +15,16 @@ package exam.test1;
  */
 
 public class TestClass65 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         TestClass65 tc = new TestClass65();
         tc.myMethod();
     }
     
-    public void myMethod() {
+    public void myMethod() throws Exception {
         yourMethod();
     }
     
-    public void yourMethod() {
+    public void yourMethod() throws Exception {
         throw new Exception();
     }    
 }
