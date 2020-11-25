@@ -9,15 +9,15 @@ package exam.test1;
  5) Compile time error at //3;
  */
 
-class Base{
+class Ciao{
    public short getValue(){ return 1; } //1
 }
-class Base2 extends Base{
-   public byte getValue(){ return 2; } //2
+class Ciao2 extends Ciao{
+  // public byte getValue(){ return 2; } //2
 }
 public class TestClass45 {
    public static void main(String[] args){
-      Base b = new Base2();
+	   Ciao b = new Ciao2();
       System.out.println(b.getValue()); //3
    }
 }
