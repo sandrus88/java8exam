@@ -10,7 +10,7 @@ package exam.test1;
 
 import java.util.ArrayList;
 import java.util.function.Predicate;
-import javax.swing.text.html.HTMLDocument.Iterator;
+import java.util.Iterator;
 
 public class Data52 {
 	int value;
@@ -34,7 +34,7 @@ public class Data52 {
 
 	public static void main(String[] args) {
 		Data52 d = new Data52(1); 
-		ArrayList<Data52> 
+		ArrayList<Data52> al = new ArrayList<Data52>();
 		al.add(d);
 		d = new Data52(2);
 		al.add(d);
