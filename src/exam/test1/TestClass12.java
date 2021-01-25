@@ -11,9 +11,9 @@ package exam.test1;
 
 public class TestClass12 {
 	public static void main(String args[]) {
-		int i;
+		int i = 5;
 		int j;
-		for (i = 0, j = 0; j < i; ++j, i++) {
+		for (j = 0; j < i; ++j) {
 			System.out.println(i + " " + j);
 		}
 		System.out.println(i + " " + j);

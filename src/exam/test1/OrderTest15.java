@@ -17,13 +17,15 @@ public class OrderTest15 {
 	public void initData(String[] arr) {
 		int ind = 0;
 		for (String str : arr) {
-			str.concat(str + " " + ind);
+			str = "Ciao";
+			System.out.println(str.concat(" " + str + " " + ind));
 			ind++;
 		}
 	}
 
 	public void printData(String[] arr) {
 		for (String str : arr) {
+			str = "Ciao";
 			System.out.println(str);
 		}
 	}

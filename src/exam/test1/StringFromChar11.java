@@ -15,7 +15,8 @@ public class StringFromChar11 {
 		String newStr = null;
 		for (char ch : myCharArr) {
 			newStr = newStr + ch;
-		}
+		} 
 		System.out.println((newStr == myStr) + " " + (newStr.equals(myStr)));
+		System.out.println("valore newStr: '" + newStr + "'");
 	}
 }

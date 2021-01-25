@@ -20,6 +20,5 @@ public class Somma {
 		o1 = new Somma();
 		int result = o1.somma(45, 20);
 		System.out.println("result: " + result);
-		
 	}
 }
