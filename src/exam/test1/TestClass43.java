@@ -1,8 +1,9 @@
 package exam.test1;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.function.Predicate;
-import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
+
 
 /**
  What can be inserted in the code below so that it will print true when run?
